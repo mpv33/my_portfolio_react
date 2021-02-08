@@ -23,9 +23,9 @@ const Sidebar = () => {
                 </div>
             </a>
             <figure className="my-2">
-                <a href=""><img src={facebook} alt="facebook" className="sidebar__icon sidebar__social-icons mr-3" /></a>
-                <a href=""><img src={instagram} alt="instagram" className="sidebar__icon sidebar__social-icons mr-3" /></a>
-                <a href=""><img src={github} alt="github" className="sidebar__icon sidebar__social-icons" /></a>
+                <a href="#"><img src={facebook} alt="facebook" className="sidebar__icon sidebar__social-icons mr-3" /></a>
+                <a href="#"><img src={instagram} alt="instagram" className="sidebar__icon sidebar__social-icons mr-3" /></a>
+                <a href="#"><img src={github} alt="github" className="sidebar__icon sidebar__social-icons" /></a>
             </figure>
             <div className="sidebar__contact">
                 <div className="sidebar__location mt-3">
