@@ -13,8 +13,6 @@ const Navbar = () => {
             setActive('Projects')
         else if (currentURL.endsWith('/resume'))
             setActive('Resume')
-        else if (currentURL.endsWith('/certification'))
-            setActive('Certification')
 
     }, [active])
 
@@ -25,25 +23,22 @@ const Navbar = () => {
             </div>
 
             <div className="navbar__items">
-            
+                {active !== 'About' &&
                     <Link to="/">
-                        <div className="navbar__item"   onClick={() => setActive('About')}>About </div>
+                        <div className="navbar__item" onClick={() => setActive('About')}>About</div>
                     </Link>
-                
-            
+                }
+                {active !== 'Resume' ?
                     <Link to="/resume">
                         <div className="navbar__item" onClick={() => setActive('Resume')}>Resume</div>
-                   </Link> 
-                
-            
+                    </Link> : null
+                }
+
+                {active !== 'Projects' &&
                     <Link to="/projects">
                         <div className="navbar__item" onClick={() => setActive('Projects')}>Projects</div>
                     </Link>
-
-                    <Link to="/certification">
-                        <div className="navbar__item" onClick={() => setActive('Certification')}>Certification</div>
-                    </Link>
-                
+                }
             </div>
 
         </div>
