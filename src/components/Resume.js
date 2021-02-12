@@ -74,10 +74,19 @@ const Resume = () => {
                         <h5 className="resume-card__title">
                           SRIMT Lucknow (CSE)
                         </h5>
-                        <p className="resume-card__name">
+                        <h6 className="resume-card__name">
                             B.Tech (2016-2020)
-                        </p>
-                        <p className="resume-card__details">I have done  B.tech in CSE  From SRIMT Lucknow</p>
+                        </h6>
+                        <p className="resume-card__details">I have done  B.tech in CSE  From SRIMT Lucknow with 80%</p>
+                    </div>
+                    <div className="resume-card__body">
+                        <h5 className="resume-card__title">
+                          CMS Balrampur (pcm)
+                        </h5>
+                        <h6 className="resume-card__name">
+                            XII (2014-2016)
+                        </h6>
+                        <p className="resume-card__details">I have done  XII in math  From CMS balrampur with 85% </p>
                     </div>
                 </div>
                 <div className="col-lg-6 resume-card" >
@@ -88,10 +97,19 @@ const Resume = () => {
                         <h5 className="resume-card__title">
                             Software Enginner Trainee
                         </h5>
-                        <p className="resume-card__name">
-                            Tech Vedika Software Pvt.Ltd  ( nov 2020 - present)
-                        </p>
+                        <h6 className="resume-card__name">
+                            Tech Vedika,Hyderabad ( nov 2020 - present)
+                        </h6>
                         <p className="resume-card__details">I  have worked on many live project based on MERN Stack technology using React and Node js  .</p>
+                    </div>
+                    <div className="resume-card__body">
+                        <h5 className="resume-card__title">
+                            Python developer Intern
+                        </h5>
+                        <h6 className="resume-card__name">
+                            NeuralTechSoft,Mumbai( jan 2020 - march 2020)
+                        </h6>
+                        <p className="resume-card__details">I  have worked on many live project based on python Stack technology using django and algo trading tools   .</p>
                     </div>
                 </div>
             </div>
