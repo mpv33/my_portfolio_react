@@ -4,12 +4,17 @@ body {
     background-image: linear-gradient(to right bottom, #00F260, #0575E6);
     background-attachment: fixed;
     color: #354538;
+    margin-top: 30px;
 }
 
 a {
     text-decoration: none;
     color: #354548;
 
+}
+
+.projects__navbar-active{
+    color: #00F260;
 }
 
 a:hover {
@@ -201,9 +206,10 @@ a:hover {
 .resume-card__heading,
 .reume-language__heading {
     margin-left: 10px;
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     font-weight: 700;
     color: #354538;
+    text-align: left;
 }
 
 .resume-card__body {
@@ -294,4 +300,19 @@ a:hover {
     margin: 0 5px;
     font-size: 1rem;
     cursor: pointer;
+}
+
+@media (max-width: 600px) {
+    .app__main-content {
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+
+    .navbar__active {
+        font-size: 1.5rem;
+    }
+
+    .navbar__item {
+        font-size: 1rem;
+    }
 }

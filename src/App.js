@@ -5,7 +5,7 @@ import { BrowserRouter as Router, Route, Redirect, Switch } from 'react-router-d
 import About from './components/About';
 import Resume from './components/Resume';
 import Projects from './components/Projects';
-import Certification from './components/Certification';
+import Courses from './components/Courses';
 function App() {
   return (
     <Router>
@@ -29,7 +29,7 @@ function App() {
                   <Resume />
                 </Route>
                 <Route path="/projects" component={Projects} />
-                <Route path="/certification" component={Certification} />
+                <Route path="/courses" component={Courses} />
                 <Route>
                   <Redirect to="/" />
                 </Route>

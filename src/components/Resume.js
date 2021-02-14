@@ -19,26 +19,7 @@ const languages = [
         name: 'Java Script',
         level: '80'
     },
-    {
-        icon: react,
-        name: 'React',
-        level: '75'
-    },
-    {
-        icon: react,
-        name: 'Django',
-        level: '60'
-    },
-    {
-        icon: react,
-        name: 'MUI',
-        level: '50'
-    },
-    {
-        icon: react,
-        name: 'Node',
-        level: '50'
-    },
+    
     {
         icon: react,
         name: 'Mysql',
@@ -49,13 +30,33 @@ const languages = [
 const tools = [
     {
         icon: react,
+        name: 'React Js',
+        level: '75'
+    },
+    {
+        icon: react,
+        name: 'Django',
+        level: '60'
+    },
+    {
+        icon: react,
+        name: 'Material UI',
+        level: '50'
+    },
+    {
+        icon: react,
+        name: 'NodeJs',
+        level: '50'
+    },
+    {
+        icon: react,
         name: 'GIT',
-        level: '85'
+        level: '55'
     },
     {
         icon: react,
         name: 'VS Code',
-        level: '45'
+        level: '65'
     },
     
 
@@ -77,7 +78,7 @@ const Resume = () => {
                         <h6 className="resume-card__name">
                             B.Tech (2016-2020)
                         </h6>
-                        <p className="resume-card__details">I have done  B.tech in CSE  From SRIMT Lucknow with 80%</p>
+                        <p className="resume-card__details">I have completed my B.tech in CSE  From SRIMT Lucknow with 80%</p>
                     </div>
                     <div className="resume-card__body">
                         <h5 className="resume-card__title">
@@ -100,7 +101,7 @@ const Resume = () => {
                         <h6 className="resume-card__name">
                             Tech Vedika,Hyderabad ( nov 2020 - present)
                         </h6>
-                        <p className="resume-card__details">I  have worked on many live project based on MERN Stack technology using React and Node js  .</p>
+                        <p className="resume-card__details">Iam working on live project based on MERN Stack technology using React and Node js  .</p>
                     </div>
                     <div className="resume-card__body">
                         <h5 className="resume-card__title">
@@ -109,7 +110,7 @@ const Resume = () => {
                         <h6 className="resume-card__name">
                             NeuralTechSoft,Mumbai( jan 2020 - march 2020)
                         </h6>
-                        <p className="resume-card__details">I  have worked on many live project based on python Stack technology using django and algo trading tools   .</p>
+                        <p className="resume-card__details">I  have worked on live project based on python Stack technology using django and algo trading tools   .</p>
                     </div>
                 </div>
             </div>
@@ -117,7 +118,7 @@ const Resume = () => {
             <div className="row">
                 <div className="col-lg-6 resume-languages">
                     <h5 className="reume-language__heading">
-                        Language and Framework
+                       Programming languages
                     </h5>
                     <div className="resume-language__body mt-3">
                         {
@@ -129,7 +130,7 @@ const Resume = () => {
                 </div>
                 <div className="col-lg-6 resume-languages">
                     <h5 className="reume-language__heading">
-                        Tools and Softwares
+                        Framework and Tools
                     </h5>
                     <div className="resume-language__body mt-3">
                         {

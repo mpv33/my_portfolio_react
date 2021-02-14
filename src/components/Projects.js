@@ -5,26 +5,32 @@ import ProjectCard from './ProjectCard';
 
 const Projects = () => {
     const [projects, setProjects] = useState(data_projects)
-
+    const [active, setActive] = useState('All')
     const handleFilterCategory = (name) => {
         const new_array = data_projects.filter(project => project.category.includes(name))
         setProjects(new_array)
+        setActive(name)
     }
     return (
         <div className="container projects">
             <div className="projects__navbar">
-                <div onClick={() => setProjects(data_projects)}>All</div>
-                <div onClick={() => handleFilterCategory('python')}>Python</div>
-                <div onClick={() => handleFilterCategory('js')}>JavaScript</div>
-                <div onClick={() => handleFilterCategory('reactjs')}>ReactJs</div>
-                <div onClick={() => handleFilterCategory('nodejs')}>Nodejs</div>
+                <div  className={active === 'All' && 'projects__navbar-active'}
+                 onClick={ () => {
+                     setProjects(data_projects)
+                     setActive ('All')}
+                }>All</div>
+                <div className={active === 'python' && 'projects__navbar-active'} onClick={() => handleFilterCategory('python')}>Python</div>
+                <div className={active === 'js' && 'projects__navbar-active'} onClick={() => handleFilterCategory('js')}>JavaScript</div>
+                <div className={active === 'reactjs' && 'projects__navbar-active'} onClick={() => handleFilterCategory('reactjs')}>ReactJs</div>
+                <div className={active === 'nodejs' && 'projects__navbar-active'} onClick={() => handleFilterCategory('nodejs')}>Nodejs</div>
             </div>
             <div className="row">
 
                 {
                     projects.map(project =>
-                        <ProjectCard key={project.name} project={project} />)
+                        <ProjectCard project={project} />)
                 }
+
             </div>
         </div>
     );

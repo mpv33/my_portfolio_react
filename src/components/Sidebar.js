@@ -16,7 +16,7 @@ const Sidebar = () => {
         <div className="sidebar">
             <img src={mightycoder} alt="avatar" className="sidebar__avatar" />
             <div className="sidebar__name">Mateshwari <span> Verma</span> </div>
-            <div className="sidebar__item sidebar__title">Software Developer</div>
+            <div className="sidebar__item sidebar__title">Web Developer</div>
             <a href={resume} download="resume.pdf">
                 <div className="sidebar__item sidebar__resume">
                     <img src={tie} alt="resume" className="sidebar__icon" />Download Resume
