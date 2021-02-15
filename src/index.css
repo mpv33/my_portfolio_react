@@ -54,7 +54,7 @@ a:hover {
     height: 110px;
     width: 120px;
     object-fit: contain;
-    border-radius: 30px;
+    border-radius: 20px;
 }
 
 .sidebar__icon {
@@ -106,10 +106,14 @@ a:hover {
     transform: scale(1.2);
 }
 
-.sidebar__github:hover,
+
 .sidebar__resume:hover {
     background-color: #f1f1f2;
     color: #000;
+    cursor: pointer;
+    transition: all 3s linear;
+    transform: scale(1.0);
+   
 }
 
 @media(max-width:991px) {
