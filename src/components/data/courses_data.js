@@ -1,40 +1,49 @@
 
 const data_courses = [
     {
-        name: 'DSA',
+        name: 'Intern ',
         image: '',
         url: '',
-        from:'Coding Ninjas'
+        from:' NeuraltechSoft'
     },
     {
-        name: 'DSA',
+        name: 'DSA ',
         image: '',
         url: '',
-        from:'Coding Ninjas'
+        from:' Coding Ninjas'
+    },
+    {
+        name: 'Problem Solving ',
+        image: '',
+        url: '',
+        from:' NPTEL'
     },
     
     {
-        name: 'DSA',
+        name: 'React JS ',
         image: '',
         url: '',
-        from:'Coding Ninjas'
+        from:' Coding Ninjas'
+    },
+    {
+        name: 'Node JS',
+        image: '',
+        url: '',
+        from:' Coding Ninjas'
+    },
+    {
+        name: 'Python Trainee ',
+        image: '',
+        url: '',
+        from:' Internshala'
     },
     
     {
-        name: 'DSA',
+        name: 'ML Trainee',
         image: '',
         url: '',
-        from:'Coding Ninjas'
+        from:' Geeksforgeeks'
     },
-    {
-        name: 'DSA',
-        image: '',
-        url: '',
-        from:'Coding Ninjas'
-    },
-    
-    
-   
    
 ]
 

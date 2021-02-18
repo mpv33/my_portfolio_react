@@ -4,7 +4,7 @@ import CoursesCard from './coursesCard';
 const Courses = () => {
     return (
         <div className="container projects">
-                 <h6 className='text-center'> All Certificates of Courses and Internship </h6>
+                 <h6 className='text-center'> All Certifications and Courses</h6>
                 <div className="row">
 
                 {
