@@ -1,6 +1,7 @@
 import React from 'react';
 import react from '../assets/icons/react.svg'
 import python from '../assets/icons/python.svg'
+import javascript from '../assets/icons/java-script.svg'
 import Bar from './Bar';
 
 const languages = [
@@ -15,7 +16,7 @@ const languages = [
         level: '45'
     },
     {
-        icon: react,
+        icon: javascript,
         name: 'Java Script',
         level: '80'
     },
