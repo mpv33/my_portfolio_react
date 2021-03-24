@@ -23,7 +23,7 @@ const languages = [
     
     {
         icon: react,
-        name: 'Mysql',
+        name: 'Mysql/MongoDB',
         level: '50'
     }
 ]
@@ -97,7 +97,7 @@ const Resume = () => {
                     </h4>
                     <div className="resume-card__body">
                         <h5 className="resume-card__title">
-                            Software Enginner Trainee
+                            Software Enginner 
                         </h5>
                         <h6 className="resume-card__name">
                             Tech Vedika,Hyderabad ( nov 2020 - present)
