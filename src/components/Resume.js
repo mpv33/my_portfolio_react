@@ -102,7 +102,7 @@ const Resume = () => {
                         <h6 className="resume-card__name">
                             Tech Vedika,Hyderabad ( nov 2020 - present)
                         </h6>
-                        <p className="resume-card__details">Iam working on live project based on MERN Stack technology using React and Node js  .</p>
+                        <p className="resume-card__details">Iam working on Open source based project using MERN Stack technology .</p>
                     </div>
                     <div className="resume-card__body">
                         <h5 className="resume-card__title">
@@ -111,7 +111,7 @@ const Resume = () => {
                         <h6 className="resume-card__name">
                             NeuralTechSoft,Mumbai( jan 2020 - march 2020)
                         </h6>
-                        <p className="resume-card__details">I  have worked on live project based on python Stack technology using django and algo trading tools   .</p>
+                        <p className="resume-card__details">I worked on Algo Trading based Project using python,numpy,pandas,trading indicator tools   .</p>
                     </div>
                 </div>
             </div>

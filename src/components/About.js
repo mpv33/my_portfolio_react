@@ -9,17 +9,17 @@ const skills = [
     {
         icon: computer,
         title: "Frontend Development",
-        about: "I can build a beautiful and scalable SPA using HTML, CSS and React.js"
+        about: "I can build a beautiful and scalable SPA using HTML, CSS, Material UI and React.js"
     },
     {
         icon: repair,
         title: "Backend  Development",
-        about: "handle database, server, api using  Node.Js,Express Js,Django, Mysql, SQLlite",
+        about: "i can handle database , server side , api using Node.Js,Express.Js,Django, Mysql,NoSql DB",
     },
     {
         icon: api,
         title: "API Development",
-        about: "I can develop robust REST API and Serverless Api using Nodejs and AWS "
+        about: "I can develop robust REST Full API and Serverless Api using Nodejs and AWS "
     },
     {
         icon: algo,
@@ -42,7 +42,7 @@ const About = () => {
                 
             </h6>
             <div className="container about__container">
-                <h6 className="about__heading">What I offer</h6>
+                <h6 className="about__heading">Area of Interest</h6>
                 <div className="row">
                     {
                         skills.map(skill =>
