@@ -9,24 +9,24 @@ const skills = [
     {
         icon: computer,
         title: "Frontend Development",
-        about: "I can build a beautiful and scalable SPA using HTML, CSS, Material UI and React.js"
+        about: "I can build a beautiful and scalable SPA using HTML, CSS, Material UI, Tailwind css with React.js, Redux, NextJs"
     },
     {
         icon: repair,
         title: "Backend  Development",
-        about: "i can handle database , server side , api using Node.Js,Express.Js,Django, Mysql,NoSql DB",
+        about: "i can handle database , server side , api development using Node.Js,Express.Js,Mongo DB",
     },
     {
         icon: api,
-        title: "API Development",
-        about: "I can develop robust REST Full API and Serverless Api using Nodejs and AWS "
+        title: "APP Development",
+        about: "I can build a beautiful and scalable Andriod/Ios App using React Native, Redux"
     },
     {
         icon: algo,
         title: "Competitive Coder",
         about: "a daily problem solver in HackerRank and Leetcode"
     },
-  
+
 ]
 
 
@@ -34,12 +34,13 @@ const About = () => {
     return (
         <div className="about">
             <h6 className="about__intro">
-                I describe myself as someone who's persistant, 
+                I am looking for more productive role that suit my skill and ability and grow in furture . actively looking as Full stack developer
+                I describe myself as someone who's persistant,
                 a quick learner and loves problem solving by using simple and scalable solutions.
-                I've been working as a Software Enginer in Tech Vedika Software Pvt.Ltd ,Hyderabad since Nov ,2020.
-                I have also done one Internship as a Python Developer at NeuraltechSoft Software Pvt. 
-                Ltd ,Mumbai From Jan 2020 to March 2020.
-                
+                I've been working as a Software Enginer (2.5 + years) since Nov ,2020.
+                I did my B.tech in computer science from UPTU Lucknow (2020).
+
+
             </h6>
             <div className="container about__container">
                 <h6 className="about__heading">Area of Interest</h6>

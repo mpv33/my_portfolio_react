@@ -30,11 +30,11 @@ const Navbar = () => {
                         <div className="navbar__item" onClick={() => setActive('About')}>About</div>
                     </Link>
                 }
-                {active !== 'Resume' ?
+                {/* {active !== 'Resume' ?
                     <Link to="/resume">
                         <div className="navbar__item" onClick={() => setActive('Resume')}>Resume</div>
                     </Link> : null
-                }
+                } */}
 
                 {active !== 'Projects' &&
                     <Link to="/projects">
