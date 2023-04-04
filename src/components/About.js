@@ -34,13 +34,13 @@ const About = () => {
     return (
         <div className="about">
             <h6 className="about__intro">
-                I am looking for more productive role that suit my skill and ability and grow in furture . actively looking as Full stack developer
-                I describe myself as someone who's persistant,
-                a quick learner and loves problem solving by using simple and scalable solutions.
-                I've been working as a Software Enginer (2.5 + years) since Nov ,2020.
-                I did my B.tech in computer science from UPTU Lucknow (2020).
-
-
+                <div>
+                    <h4>Full Stack Developer</h4>
+                    <p>As an experienced Full Stack Developer with over 2.5 years of experience, I have a strong track record of delivering high-quality software solutions that meet client needs and exceed expectations. With expertise in both front-end and back-end development, I bring a well-rounded skillset to any project.</p>
+                    <p>In my previous roles, I have developed a deep understanding of various programming languages and frameworks, including but not limited to HTML, CSS, JavaScript, React, Node.js, and MongoDB. I am comfortable working with  non-relational databases mongodb and have experience with  RESTful APIs.</p>
+                    <p>In addition to my technical skills, I have honed my project management skills through experience with agile methodologies and project management tools like Jira, Trello, and Asana. I am a strong collaborator and team player, able to work effectively with other developers, designers, and stakeholders to deliver projects on time and within budget.</p>
+                    <p>Overall, I am a persistent learner, passionate problem solver, and dedicated professional committed to delivering high-quality results. I am excited to continue my growth as a Full Stack Developer and to contribute my skills and expertise to the success of a dynamic team.</p>
+                </div>
             </h6>
             <div className="container about__container">
                 <h6 className="about__heading">Area of Interest</h6>

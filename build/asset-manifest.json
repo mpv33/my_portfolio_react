@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/static/css/main.edb8fdd2.chunk.css",
-    "main.js": "/static/js/main.d3e9ccc6.chunk.js",
-    "main.js.map": "/static/js/main.d3e9ccc6.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.19ccc7f6.js",
-    "runtime-main.js.map": "/static/js/runtime-main.19ccc7f6.js.map",
-    "static/js/2.93272f10.chunk.js": "/static/js/2.93272f10.chunk.js",
-    "static/js/2.93272f10.chunk.js.map": "/static/js/2.93272f10.chunk.js.map",
+    "main.js": "/static/js/main.9dd9cf67.chunk.js",
+    "main.js.map": "/static/js/main.9dd9cf67.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.ceaf4b5f.js",
+    "runtime-main.js.map": "/static/js/runtime-main.ceaf4b5f.js.map",
+    "static/js/2.bd73667a.chunk.js": "/static/js/2.bd73667a.chunk.js",
+    "static/js/2.bd73667a.chunk.js.map": "/static/js/2.bd73667a.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.041abdf81054aceb270ab75b35c8ae21.js": "/precache-manifest.041abdf81054aceb270ab75b35c8ae21.js",
+    "precache-manifest.e09ab667f1bc13999a36facb1f2f6592.js": "/precache-manifest.e09ab667f1bc13999a36facb1f2f6592.js",
     "service-worker.js": "/service-worker.js",
     "static/css/main.edb8fdd2.chunk.css.map": "/static/css/main.edb8fdd2.chunk.css.map",
-    "static/js/2.93272f10.chunk.js.LICENSE.txt": "/static/js/2.93272f10.chunk.js.LICENSE.txt",
+    "static/js/2.bd73667a.chunk.js.LICENSE.txt": "/static/js/2.bd73667a.chunk.js.LICENSE.txt",
     "static/media/ML intern.jpg": "/static/media/ML intern.47a2f496.jpg",
     "static/media/advance_python.jpg": "/static/media/advance_python.561dfc04.jpg",
     "static/media/algo.svg": "/static/media/algo.f5711eaa.svg",
@@ -22,7 +22,7 @@
     "static/media/hdsa.png": "/static/media/hdsa.ca8c1f48.png",
     "static/media/hp.png": "/static/media/hp.a6964d19.png",
     "static/media/java-script.svg": "/static/media/java-script.05dba317.svg",
-    "static/media/mateshwari_resume.pdf": "/static/media/mateshwari_resume.1fcd384c.pdf",
+    "static/media/mateshwari_resume.pdf": "/static/media/mateshwari_resume.209496e2.pdf",
     "static/media/ml.jpg": "/static/media/ml.989dbd16.jpg",
     "static/media/mpv.png": "/static/media/mpv.2ffb006b.png",
     "static/media/nptl.jpg": "/static/media/nptl.7915d153.jpg",
@@ -37,9 +37,9 @@
     "static/media/web.jpg": "/static/media/web.d2488a40.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.19ccc7f6.js",
-    "static/js/2.93272f10.chunk.js",
+    "static/js/runtime-main.ceaf4b5f.js",
+    "static/js/2.bd73667a.chunk.js",
     "static/css/main.edb8fdd2.chunk.css",
-    "static/js/main.d3e9ccc6.chunk.js"
+    "static/js/main.9dd9cf67.chunk.js"
   ]
 }
